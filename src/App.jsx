@@ -1,8 +1,9 @@
 import React from "react";
+import NameInput from "./NameInput"
 
 const App = () => {
   return (
-    <div className="text-6xl text-red-500">App</div>
+    <NameInput />
   )
 };
 
