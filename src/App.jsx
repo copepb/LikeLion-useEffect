@@ -1,10 +1,11 @@
-import React from "react";
-import NameInput from "./NameInput"
+import ItemList from "./ItemList";
 
 const App = () => {
   return (
-    <NameInput />
-  )
+    <div>
+      <ItemList />
+    </div>
+  );
 };
 
 export default App;
